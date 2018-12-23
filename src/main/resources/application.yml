@@ -1,0 +1,10 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+kafka:
+  consumer:
+    group-id: foo
+    auto-offset-reset: earliest
+  bootstrap-servers: localhost:9092
